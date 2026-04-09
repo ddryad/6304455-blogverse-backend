@@ -13,11 +13,10 @@ pnpm-debug.log*
 # Build
 dist/
 build/
-dist-ssr/
+.tsbuildinfo
 
 # Environnement
 .env
-.env.example
 .env.local
 .env.*.local
 
@@ -31,6 +30,7 @@ dist-ssr/
 
 # Testing
 /coverage
+.nyc_output/
 
 # Logs
 logs/
